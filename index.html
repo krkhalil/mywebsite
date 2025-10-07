@@ -1,32 +1,106 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>My Website</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header>
-      <h1>Welcome to My Website</h1>
-      <nav>
-        <a href="index.html">Home</a> |
-        <a href="about.html">About</a>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Khalil ul Rehman | QA Engineer Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Khalil<span>.</span></div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <main>
-      <section>
-        <h2>Getting started</h2>
-        <p>This is a starter site. Edit <code>index.html</code>, <code>about.html</code>, <code>style.css</code>, and <code>script.js</code> to build your site.</p>
-        <button id="helloBtn">Say hello</button>
-      </section>
-    </main>
+  <section id="hero" class="hero">
+    <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-pic" />
+    <h1>I'm <span>Khalil ul Rehman</span></h1>
+    <h2>QA Engineer (Hybrid) | Automation | Data Science</h2>
+    <div class="hero-buttons">
+      <a href="Khalil_ul_Rehman_resume.pdf" class="btn" download>Download Resume</a>
+      <a href="https://linkedin.com/in/khalil-ul-rehman-mirza" target="_blank" class="btn-outline">LinkedIn</a>
+    </div>
+  </section>
 
-    <footer>
-      <p>&copy; <span id="year"></span> My Website</p>
-    </footer>
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      I’m a QA Engineer with expertise in Python, Java, Selenium, RestAssured, and Playwright — automating web, API, and mobile testing.
+      Skilled in building automation frameworks, integrating CI/CD pipelines (Jenkins, AWS), and driving measurable quality improvements.
+      Passionate about blending QA engineering and data science to solve real-world problems.
+    </p>
 
-    <script src="script.js"></script>
-  </body>
+    <div class="education">
+      <h3>Education</h3>
+      <ul>
+        <li><strong>Masters in Data Science</strong> — UMT (2020–2022)</li>
+        <li><strong>Bachelor in Software Engineering</strong> — COMSATS (2014–2018)</li>
+      </ul>
+    </div>
+
+    <div class="certifications">
+      <h3>Certifications</h3>
+      <ul>
+        <li>NLP and Text Mining with Python</li>
+        <li>REST API Automation with RestAssured</li>
+        <li>Postman Essential Training</li>
+        <li>Java Essential Training</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Technical Skills</h2>
+    <div class="skills-grid">
+      <div>Python</div><div>Java</div><div>TypeScript</div>
+      <div>Selenium</div><div>Playwright</div><div>RestAssured</div>
+      <div>JMeter</div><div>Allure</div><div>Jenkins</div>
+      <div>TestRail</div><div>JIRA</div><div>AWS</div>
+      <div>SQL Server</div><div>MongoDB</div><div>Figma</div>
+    </div>
+  </section>
+
+  <section id="experience" class="experience">
+    <h2>Experience</h2>
+    <div class="exp-card">
+      <h3>Motive — QA Engineer (Hybrid)</h3>
+      <span>Mar 2023 – Present</span>
+      <p>Built automation frameworks using Playwright & RestAssured, reducing regression cycles by 40%. Integrated tests into Jenkins & AWS pipelines.</p>
+    </div>
+
+    <div class="exp-card">
+      <h3>yieldWerx Semiconductor — Sr QA Automation Engineer</h3>
+      <span>Sep 2022 – Mar 2023</span>
+      <p>Developed Python automation frameworks with Selenium & Behave; automated UI/API tests, reducing manual effort by 50%.</p>
+    </div>
+
+    <div class="exp-card">
+      <h3>Marham — Sr QA Automation Engineer</h3>
+      <span>Oct 2021 – Aug 2022</span>
+      <p>Automated testing for Android, iOS, and Web. Conducted performance testing with JMeter, reducing bugs by 30%.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>📧 <a href="mailto:mughalk4@gmail.com">mughalk4@gmail.com</a></p>
+    <p>📞 <a href="tel:+923027470680">+92 302 7470680</a></p>
+    <p>🌐 <a href="https://encoderunlimited.com" target="_blank">encoderunlimited.com</a></p>
+    <p>💻 <a href="https://github.com/krkhalil" target="_blank">github.com/krkhalil</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Khalil ul Rehman | All Rights Reserved</p>
+  </footer>
+</body>
 </html>

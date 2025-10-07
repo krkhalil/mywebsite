@@ -1,8 +1,19 @@
-// Small starter script
-document.addEventListener('DOMContentLoaded', () => {
-  const yearSpan = document.getElementById('year');
-  if (yearSpan) yearSpan.textContent = new Date().getFullYear();
+// Smooth navbar highlighting while scrolling
+const sections = document.querySelectorAll("section");
+const navLinks = document.querySelectorAll(".nav-links a");
 
-  const btn = document.getElementById('helloBtn');
-  if (btn) btn.addEventListener('click', () => alert('Hello from script.js'));
+window.addEventListener("scroll", () => {
+  let current = "";
+  sections.forEach((section) => {
+    const sectionTop = section.offsetTop;
+    if (pageYOffset >= sectionTop - 60) {
+      current = section.getAttribute("id");
+    }
+  });
+  navLinks.forEach((a) => {
+    a.classList.remove("active");
+    if (a.getAttribute("href").includes(current)) {
+      a.classList.add("active");
+    }
+  });
 });
