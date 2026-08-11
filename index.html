@@ -3,104 +3,291 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Khalil ul Rehman | QA Engineer Portfolio</title>
+  <title>Khalil ul Rehman Mirza — Senior QA Automation Engineer</title>
+  <meta name="description" content="Senior QA Automation Engineer in Lahore specializing in web, mobile, and API quality — with a Master's in Data Science and hands-on testing of RAG, LLM, and voice AI systems." />
+  <meta name="author" content="Khalil ul Rehman Mirza" />
+  <meta property="og:title" content="Khalil ul Rehman Mirza — Senior QA Automation Engineer" />
+  <meta property="og:description" content="5+ years testing web, mobile, and API systems. AI / RAG & LLM quality. Master's in Data Science." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/khalil.png" />
+  <meta name="theme-color" content="#0b1020" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230b1020'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-family='Georgia' font-size='16' fill='%23c6a15b'%3EK%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
-  <script defer src="script.js"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
 </head>
 <body>
-  <header>
-    <nav>
-      <div class="logo">Khalil<span>.</span></div>
-      <ul class="nav-links">
-        <li><a href="#hero">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="orb orb-a" aria-hidden="true"></div>
+  <div class="orb orb-b" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="logo" href="#top">Khalil<span>.</span></a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+    <nav class="nav" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#work">AI Work</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact" class="nav-cta">Contact</a>
     </nav>
   </header>
 
-  <section id="hero" class="hero">
-    <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-pic" />
-    <h1>I'm <span>Khalil ul Rehman</span></h1>
-    <h2>QA Engineer (Hybrid) | Automation | Data Science</h2>
-    <div class="hero-buttons">
-      <a href="Khalil_ul_Rehman_resume.pdf" class="btn" download>Download Resume</a>
-      <a href="https://linkedin.com/in/khalil-ul-rehman-mirza" target="_blank" class="btn-outline">LinkedIn</a>
-    </div>
-  </section>
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Lahore, Pakistan · Open to collaboration</p>
+        <h1>Khalil ul Rehman <em>Mirza</em></h1>
+        <p class="hero-role">Senior QA Automation Engineer</p>
+        <p class="hero-lede">
+          I design rigorous quality for web, mobile, and API products — and translate that craft to
+          RAG, LLM, and voice-driven AI systems.
+        </p>
+        <div class="hero-meta">
+          <span>5+ years</span>
+          <span>AI / RAG &amp; LLM QA</span>
+          <span>MSc Data Science</span>
+        </div>
+        <div class="hero-actions">
+          <a class="btn" href="Khalil_ul_Rehman_Mirza_Resume.pdf" download>Download résumé</a>
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/khalil-ul-rehman-mirza" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
 
-  <section id="about" class="about">
-    <h2>About Me</h2>
-    <p>
-      I’m a QA Engineer with expertise in Python, Java, Selenium, RestAssured, and Playwright — automating web, API, and mobile testing.
-      Skilled in building automation frameworks, integrating CI/CD pipelines (Jenkins, AWS), and driving measurable quality improvements.
-      Passionate about blending QA engineering and data science to solve real-world problems.
-    </p>
+      <figure class="hero-portrait reveal">
+        <div class="portrait-ring" aria-hidden="true"></div>
+        <img src="assets/khalil.png" alt="Khalil ul Rehman Mirza seated at a marble table in a navy blazer and black turtleneck" />
+        <figcaption>
+          <span>Senior QA · AI Systems Testing</span>
+          <span>Systems Limited</span>
+        </figcaption>
+      </figure>
+    </section>
 
-    <div class="education">
-      <h3>Education</h3>
-      <ul>
-        <li><strong>Masters in Data Science</strong> — UMT (2020–2022)</li>
-        <li><strong>Bachelor in Software Engineering</strong> — COMSATS (2014–2018)</li>
-      </ul>
-    </div>
+    <section id="about" class="section about">
+      <div class="section-head reveal">
+        <p class="eyebrow">Profile</p>
+        <h2>Quality engineering for products that cannot afford to guess.</h2>
+      </div>
+      <div class="about-grid">
+        <p class="about-lead reveal">
+          QA Automation Engineer with 5+ years testing web, mobile, and API systems across healthcare,
+          semiconductor, fintech, and enterprise domains. Master’s in Data Science with a focus on NLP
+          and deep learning — applied to the quality of emerging AI systems, including voice/text desktop
+          agents and Retrieval-Augmented Generation knowledge assistants.
+        </p>
+        <p class="about-body reveal">
+          I take the disciplines of functional, non-functional, and security testing and recast them as
+          frameworks for LLM-based products: retrieval fidelity, hallucination detection, prompt-injection
+          resistance, and access-scoped answers. The goal is the same as it always was — trustworthy software,
+          now under a new kind of uncertainty.
+        </p>
+      </div>
+    </section>
 
-    <div class="certifications">
-      <h3>Certifications</h3>
-      <ul>
-        <li>NLP and Text Mining with Python</li>
-        <li>REST API Automation with RestAssured</li>
-        <li>Postman Essential Training</li>
-        <li>Java Essential Training</li>
-      </ul>
-    </div>
-  </section>
+    <section id="work" class="section work">
+      <div class="section-head reveal">
+        <p class="eyebrow">Featured</p>
+        <h2>AI / RAG &amp; LLM systems I have tested.</h2>
+      </div>
 
-  <section id="skills" class="skills">
-    <h2>Technical Skills</h2>
-    <div class="skills-grid">
-      <div>Python</div><div>Java</div><div>TypeScript</div>
-      <div>Selenium</div><div>Playwright</div><div>RestAssured</div>
-      <div>JMeter</div><div>Allure</div><div>Jenkins</div>
-      <div>TestRail</div><div>JIRA</div><div>AWS</div>
-      <div>SQL Server</div><div>MongoDB</div><div>Figma</div>
-    </div>
-  </section>
+      <article class="project reveal">
+        <div class="project-index">01</div>
+        <div class="project-body">
+          <p class="project-role">QA Lead · Personal / R&amp;D</p>
+          <h3>Voice &amp; text desktop AI automation agent</h3>
+          <p>
+            An interactive agent that performs everyday computer tasks through natural voice and typed
+            commands — opening apps, dictating into documents, and issuing OS-level controls.
+          </p>
+          <ul>
+            <li>Intent recognition across accents, phrasing, and spoken vs. typed input</li>
+            <li>Speech-to-text accuracy, noise tolerance, and fallback when input is unclear</li>
+            <li>Cross-application regression and race conditions from rapid successive commands</li>
+            <li>Safety around destructive actions such as sleep and shutdown</li>
+          </ul>
+        </div>
+      </article>
 
-  <section id="experience" class="experience">
-    <h2>Experience</h2>
-    <div class="exp-card">
-      <h3>Motive — QA Engineer (Hybrid)</h3>
-      <span>Mar 2023 – Present</span>
-      <p>Built automation frameworks using Playwright & RestAssured, reducing regression cycles by 40%. Integrated tests into Jenkins & AWS pipelines.</p>
-    </div>
+      <article class="project reveal">
+        <div class="project-index">02</div>
+        <div class="project-body">
+          <p class="project-role">QA Engineer · Enterprise</p>
+          <h3>Multi-department RAG knowledge assistant</h3>
+          <p>
+            An LLM system that indexes QA artifacts, Figma files, and technical documentation across
+            departments, then answers with grounded, sourced responses.
+          </p>
+          <div class="project-cols">
+            <div>
+              <h4>Functional</h4>
+              <ul>
+                <li>Retrieval accuracy against source documents</li>
+                <li>Citation integrity and hallucination detection</li>
+                <li>Department context isolation</li>
+                <li>Index freshness after document updates</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Non-functional &amp; security</h4>
+              <ul>
+                <li>Latency and throughput under concurrent load</li>
+                <li>Answer consistency across rephrased queries</li>
+                <li>RBAC and cross-department leakage</li>
+                <li>Prompt-injection and PII exposure checks</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
 
-    <div class="exp-card">
-      <h3>yieldWerx Semiconductor — Sr QA Automation Engineer</h3>
-      <span>Sep 2022 – Mar 2023</span>
-      <p>Developed Python automation frameworks with Selenium & Behave; automated UI/API tests, reducing manual effort by 50%.</p>
-    </div>
+    <section id="experience" class="section experience">
+      <div class="section-head reveal">
+        <p class="eyebrow">Path</p>
+        <h2>Experience across product, platform, and industry.</h2>
+      </div>
 
-    <div class="exp-card">
-      <h3>Marham — Sr QA Automation Engineer</h3>
-      <span>Oct 2021 – Aug 2022</span>
-      <p>Automated testing for Android, iOS, and Web. Conducted performance testing with JMeter, reducing bugs by 30%.</p>
-    </div>
-  </section>
+      <ol class="timeline">
+        <li class="reveal">
+          <div class="when">Oct 2025 — Present</div>
+          <div>
+            <h3>Senior Software Quality Assurance Consultant</h3>
+            <p class="org">Systems Limited · Lahore</p>
+            <p>Built an end-to-end automation framework across interconnected systems at Infinite. TypeScript and RestAssured for API coverage, executed through GitHub Actions in CI/CD.</p>
+          </div>
+        </li>
+        <li class="reveal">
+          <div class="when">Mar 2023 — Sep 2025</div>
+          <div>
+            <h3>QA Engineer (Hybrid)</h3>
+            <p class="org">Motive · Punjab, Pakistan</p>
+            <p>Automated frontend and API testing with Java, RestAssured, and Playwright. Covered web, Android, and iOS via IntelliJ, Android Studio, and Xcode. Reported through TestRail, Lambda, Coda, and JIRA.</p>
+          </div>
+        </li>
+        <li class="reveal">
+          <div class="when">Dec 2022 — Dec 2023</div>
+          <div>
+            <h3>Member, Industrial Advisory Board</h3>
+            <p class="org">COMSATS University Islamabad</p>
+            <p>Advised on industry alignment for software engineering education.</p>
+          </div>
+        </li>
+        <li class="reveal">
+          <div class="when">Sep 2022 — Mar 2023</div>
+          <div>
+            <h3>Senior QA Automation Engineer</h3>
+            <p class="org">yieldWerx Semiconductor · Lahore</p>
+            <p>Python automation with Selenium and Behave (BDD). Allure reporting, Jenkins/AWS pipelines, and data integrity checks across MongoDB and SQL Server.</p>
+          </div>
+        </li>
+        <li class="reveal">
+          <div class="when">Oct 2021 — Aug 2022</div>
+          <div>
+            <h3>Senior QA Automation Engineer</h3>
+            <p class="org">Marham · Lahore</p>
+            <p>Quality for a doctor–patient platform on Android, iOS, and web. Python, Selenium, Postman, and JMeter for functional and load testing.</p>
+          </div>
+        </li>
+        <li class="reveal">
+          <div class="when">Apr 2021 — Sep 2021</div>
+          <div>
+            <h3>Software Quality Assurance Engineer</h3>
+            <p class="org">Caretek Corporation · Lahore</p>
+            <p>Manual sprint testing on the CCM project for a US client, tracked in JIRA.</p>
+          </div>
+        </li>
+        <li class="reveal">
+          <div class="when">Sep 2018 — Dec 2020</div>
+          <div>
+            <h3>Chief Executive Officer</h3>
+            <p class="org">encoderunlimited · Vehari</p>
+            <p>Founded and led the studio — still the home of this practice.</p>
+          </div>
+        </li>
+        <li class="reveal">
+          <div class="when">Earlier</div>
+          <div>
+            <h3>Foundations</h3>
+            <p class="org">Medical City.online · Maisonette · SoftZoo · UMT</p>
+            <p>Remote AI and property-web engineering, QA and requirements work, iOS internship, and university web collaboration.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
 
-  <section id="contact" class="contact">
-    <h2>Contact Me</h2>
-    <p>📧 <a href="mailto:mughalk4@gmail.com">mughalk4@gmail.com</a></p>
-    <p>📞 <a href="tel:+923027470680">+92 302 7470680</a></p>
-    <p>🌐 <a href="https://encoderunlimited.com" target="_blank">encoderunlimited.com</a></p>
-    <p>💻 <a href="https://github.com/krkhalil" target="_blank">github.com/krkhalil</a></p>
-  </section>
+    <section id="skills" class="section skills">
+      <div class="section-head reveal">
+        <p class="eyebrow">Toolkit</p>
+        <h2>Languages, platforms, and AI quality practice.</h2>
+      </div>
+      <div class="skill-groups">
+        <div class="skill-card reveal">
+          <h3>Core QA &amp; automation</h3>
+          <ul>
+            <li>Python · Java · TypeScript</li>
+            <li>Selenium · Playwright · RestAssured</li>
+            <li>Behave (BDD) · Postman · JMeter</li>
+            <li>TestRail · JIRA · Allure</li>
+            <li>GitHub Actions · Jenkins · AWS</li>
+            <li>MongoDB · SQL Server</li>
+          </ul>
+        </div>
+        <div class="skill-card reveal">
+          <h3>AI / LLM tooling</h3>
+          <ul>
+            <li>Cursor AI · GitHub Copilot</li>
+            <li>Model Context Protocol (MCP)</li>
+            <li>RAG system testing</li>
+            <li>LLM functional &amp; security QA</li>
+            <li>Prompt-injection assessment</li>
+          </ul>
+        </div>
+        <div class="skill-card reveal">
+          <h3>Education</h3>
+          <ul>
+            <li><strong>MSc Data Science</strong> — UMT, 2020–2022</li>
+            <li><strong>BS Software Engineering</strong> — COMSATS, 2014–2018</li>
+            <li>Intermediate — GC College Vehari</li>
+          </ul>
+        </div>
+        <div class="skill-card reveal">
+          <h3>Certifications</h3>
+          <ul>
+            <li>NLP and Text Mining with Python</li>
+            <li>REST API Automation with RestAssured</li>
+            <li>Postman Essential Training</li>
+            <li>Java Essential Training</li>
+            <li>Dean’s Performance Award</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="contact-panel reveal">
+        <p class="eyebrow">Connect</p>
+        <h2>Let’s talk about quality, AI systems, or the next brief.</h2>
+        <p class="contact-note">English · Punjabi · Urdu</p>
+        <div class="contact-links">
+          <a href="mailto:mughalk4@gmail.com">mughalk4@gmail.com</a>
+          <a href="tel:+923027470680">+92 302 7470680</a>
+          <a href="https://www.linkedin.com/in/khalil-ul-rehman-mirza" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/krkhalil" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://encoderunlimited.com" target="_blank" rel="noopener">encoderunlimited.com</a>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <footer>
-    <p>© 2025 Khalil ul Rehman | All Rights Reserved</p>
+    <p>© <span id="year">2026</span> Khalil ul Rehman Mirza</p>
+    <a href="#top">Back to top</a>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
